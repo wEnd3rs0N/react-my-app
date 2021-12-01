@@ -1,0 +1,51 @@
+@media screen and (min-width: 0) {
+    .caixa-lista-nota {
+        border-top: 1px solid rgb(167, 167, 167) ;
+        height: 100vh;
+        overflow: auto;
+        background-color: rgb(212, 212, 212);
+    }
+    .formulario-notas{
+        margin-bottom: 10px;
+    }
+    .card-nota {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formulario-notas {
+        width: 70%;
+        margin: 10px auto;
+    }
+    .card-nota {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .card-nota {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .caixa-formulario-notas {
+        height: 100vh;
+        overflow: auto;
+        width: 30%;
+    }
+    .formulario-notas {
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+    .caixa-lista-nota {
+        border-top: none ;
+        background-color: rgb(212, 212, 212);
+        overflow: auto;
+        height: 100vh;
+        width: 70%;
+    }
+}
