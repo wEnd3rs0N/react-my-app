@@ -1,20 +1,19 @@
 import React, { Component } from "react";
 
 class FormularioNotas extends Component {
-    constructor(props){
+
+    constructor(props) {
         super(props);
-        this.texto ="";
-        this.titulo ="";
+        this.texto = "";
+        this.titulo = "";
     }
     _handleMudancaTitulo(event) {
         event.stopPropagation();
-       this.titulo = event.target.value;
-       console.log(this.titulo);
+        this.titulo = event.target.value;
     }
     _handleMudancaTexto(event) {
         event.stopPropagation();
         this.texto = event.target.value;
-        console.log(this.texto);
     }
     _criarNota(event) {
         event.preventDefault();
